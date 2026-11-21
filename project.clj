@@ -3,10 +3,10 @@
   :url "http://example.com/FIXME"
   :license {:name "EPL-2.0 OR GPL-2.0-or-later WITH Classpath-exception-2.0"
             :url "https://www.eclipse.org/legal/epl-2.0/"}
-  :dependencies [[org.clojure/clojure "1.11.1"]
+  :dependencies [[org.clojure/clojure "1.12.7"]
                  [faker "0.3.2"]
-                 [clj-http "3.13.0"]
-                 [cheshire "5.13.0"]
+                 [clj-http "3.13.1"]
+                 [cheshire "6.2.1"]
                  [nubank/mockfn "0.7.0"]
                  [nubank/matcher-combinators "3.9.1"]]
   :main ^:skip-aot task-canvas-clj.core
